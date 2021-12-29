@@ -20,6 +20,4 @@ public interface CozinhaRepository extends JpaRepository<Cozinha, Long> {
 	
 	boolean existsById(Long id);
 	
-
-	
 }
